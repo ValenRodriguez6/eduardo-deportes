@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #003B8E;
+    color: white;
+}
+
+header img {
+    height: 60px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #9ecbff;
+}
+
+/* HERO */
+.hero {
+    background: url('banner.jpg') center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 60px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 70px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: white;
+    color: #003B8E;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #003B8E;
+    color: white;
+    border: 1px solid white;
+}
+
+/* PRODUCTOS */
+.productos-section {
+    padding: 60px;
+    text-align: center;
+}
+
+.productos-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-weight: bold;
+    color: #003B8E;
+}
+
+/* MARCAS */
+.marcas-section {
+    padding: 60px;
+    background: #fff;
+    text-align: center;
+}
+
+.marcas-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+}
+
+.marca-card {
+    padding: 20px;
+    background: #003B8E;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.marca-card:hover {
+    background: #0054c7;
+}
+
+/* CONTACTO */
+.contacto-section {
+    padding: 60px;
+    text-align: center;
+}
+
+.insta-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #003B8E;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.insta-btn:hover {
+    background: #0054c7;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    background: #003B8E;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
