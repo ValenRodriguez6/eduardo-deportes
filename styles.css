@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #f4f4f4;
+    background: #010101;
 }
 
 /* HEADER */
@@ -15,8 +15,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
-    background: #003B8E;
-    color: white;
+    background: #000000;
+    color: rgb(255, 126, 5);
 }
 
 header img {
